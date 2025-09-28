@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Letter — Luttappi</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body{font-family:Georgia, "Times New Roman", serif; background:#0b0b0b;color:#eee; padding:40px; line-height:1.55}
+    .page{max-width:780px;margin:0 auto;background:#111;padding:28px;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.6)}
+    h1{font-family: "Palatino Linotype", Palatino, serif; color:#f4c2c2}
+    .letter{background:#0f0f10;padding:18px;border-radius:6px;border:1px solid #1f1f1f}
+    .meta{font-size:.85rem;color:#bdbdbd;margin-top:12px}
+    form{margin-top:18px}
+    input{padding:8px 10px;border-radius:4px;border:1px solid #222;background:#0b0b0b;color:#eee}
+    button{margin-top:8px;padding:8px 12px;border-radius:4px;border:1px solid #333;background:#222;color:#fff;cursor:pointer}
+    .hint{font-size:.9rem;color:#99d; margin-top:12px}
+    footer{font-size:.8rem;color:#888;margin-top:16px}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>From Luttappi — A Hasty Letter</h1>
+
+    <div class="letter">
+      <p>Brothers Kuttusan and Dakini,</p>
+
+      <p>I write in haste — I found Mayavi resting under an old banyan by the eastern trail. The night air smelled of salt and lantern-smoke; she sleeps light. I thought it best to wake you both immediately, but the hours thinned and the moon hid its face.</p>
+
+      <p>Rally at the clearing marked by three stones (just beyond the old well). Bring only the seals — no torches. If you hurry, you can catch the whisper before dawn.</p>
+
+      <p>— Luttappi</p>
+
+      <p class="meta">(Login: try user <strong>luttappi</strong> — portal limited. This page contains a note; some words may not be truthful.)</p>
+    </div>
+
+    <!--
+      Hidden clues for investigators (visible only in page source / inspector):
+      1) WAYBACK: /web/20250928101855/https://raw.githubusercontent.com/kuttichathan-luttappi/luttappi-message/main/luttappi.zip
+      2) ZIP password (double-encoded Base64→Base32): MEZVM5LEI5UGQYSRHU6Q====
+
+      Decoding hint (organizers): base32-decode -> base64-decode -> gives 'kuntham'
+    -->
+
+    <!-- also include an invisible element to make discovery via Inspect -> Elements easy -->
+    <pre id="__hidden_meta" style="display:none">
+WAYBACK=/web/20250928101855/https://raw.githubusercontent.com/kuttichathan-luttappi/luttappi-message/main/luttappi.zip
+ZIP_PWD_DOUBLE=MEZVM5LEI5UGQYSRHU6Q====
+    </pre>
+
+    <div class="hint">
+      <p>There is a note archived about this page. If the page looks quiet, check the archivist's record.</p>
+    </div>
+
+    <form onsubmit="alert('This portal is for theatre only — use the archived pages and metadata to proceed.'); return false;">
+      <label>Username: <input id="user" value="luttappi" /></l
