@@ -1,0 +1,4 @@
+Netlify page: https://poetic-speculoos-6dcd7d.netlify.app/kuttusan.html
+
+Encrypted token: ==gbhhGdhh2Y
+(note: this token is base64 of the password, then reversed)
