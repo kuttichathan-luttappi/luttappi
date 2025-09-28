@@ -1,4 +1,0 @@
-Netlify page: https://poetic-speculoos-6dcd7d.netlify.app/luttappi.html
-
-Encrypted token: MJEFMMDEI5DHOY2HNM6Q====
-(note: this token is base32(base64(password)))
