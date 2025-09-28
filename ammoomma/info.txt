@@ -1,4 +1,0 @@
-Netlify page: https://poetic-speculoos-6dcd7d.netlify.app/dakini.html
-
-Encrypted token: YTNWMGRHbGphR0YwYUdGdQ==
-(note: this token is base64(base64(password)))
